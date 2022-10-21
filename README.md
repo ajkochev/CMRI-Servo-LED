@@ -8,8 +8,10 @@ correctly and enter those values in the code below.
 You set the movement values in the deviceVal array.
 Position1 is first column, end position is Position2 column.
 Steps defines how fast the servo moves or LED fades on or off. Lower is slower higher is faster.
-Starting Position sets the positon of the servo or LED on Arduino boot
-.
+Starting Position sets the positon of the servo or LED on Arduino boot.
+
+Use the Servo-Calibration sketch in my github to determin the range of movement you need on 
+a servo and put those values in this sketck.
 
 Warning:  Be sure values used in the deviceVal array are compatable with your servos.
 Never use LED values with a servo plugged in as it could damage the servo.
